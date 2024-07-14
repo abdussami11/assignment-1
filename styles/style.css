@@ -220,3 +220,47 @@ main {
     height: 187.32px;
 }
 
+.my-inspiration {
+  display: block;
+  /* justify-content:stretch; */
+  align-items: center;
+  text-align: center;
+}
+
+.my-insp {
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin: 24px 0px;
+padding: 150px 0px 0px 0px;
+}
+
+.my-insp-des {
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+.video {
+  height: 550px;
+  width: 1076px;
+  /* width: 100%; */
+  border-radius: 16px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  align-items: center;
+  margin: 48px 0px;
+  padding: 32px;
+
+}
+
+
