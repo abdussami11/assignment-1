@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 .azeret-mono-regular {
@@ -46,13 +47,19 @@ nav ul li {
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
 }
+
+
 
 /* banner styles */
 .banner {
   background-image: url(/assets/Hero-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  /* height: 652px; */
+  background-position: center;
+    text-align: center
 }
 .banner {
   display: flex;
@@ -92,38 +99,40 @@ nav ul li {
   margin-bottom: 32px;
 }
 
+
 .btn-banner {
-  display: inline-block;
-  border: none;
-  border-radius: 8px;
-  background: rgb(13, 19, 33);
-  padding: 21px 24px 21px 24px;
-  font-size: 20px;
-  font-weight: 600;
-  color: white;
-  letter-spacing: 2px;
-  /* margin-bottom: 44px ; */
-  margin: 0px 0px 44px 0px;
-  
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #0D1321;
+    border: none;
+    border-radius: 8px;
+    padding: 21px 24px;
+    margin: 32px 0px;
+    cursor: pointer;
 }
 
 /* main styles    */
 
 main {
   align-items: center;
-  display: ;
   justify-content: center;
 }
 
+
 .container {
   border-radius: 16px;
-  background: rgba(13, 19, 33, 0.02);
-  position: absolute;
-  /* width: 1140px;
-  height: 1393px; */
-  /* padding: 74px 152px 90px 152px; */
+  background: rgba(13, 19, 33, 0.02) ;
+  /* max-width: 1140px; */
+  height: 1300px;
   margin: 74px 152px 90px 152px;
   padding: 80px 97px 80px 97px;
+  
+
+  
 }
 .main-title {
 
@@ -144,34 +153,39 @@ main {
 .section {
   border-radius: 16px;
   position: static;
-  width: 946px;
-  height: 336px;
+  /* width: 946px;
+  height: 336px; */
   margin: 32px 0px;
   display: flex;
   padding: 48px;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .one {
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+   
 }
 .two {
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
 }
 .three {
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
 }
 
 .section-title {
   color: rgba(13, 19, 33, 0.7);
-  font-family: Azeret Mono;
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0%;
   text-align: left;
-  margin: 32px 0px;
+  /* margin: 32px 0px; */
+  margin-bottom: 16px;
+  max-width: 468px;
 }
 
 .section-des {
@@ -184,12 +198,15 @@ main {
   text-align: left;
   opacity: 0.7;
   margin: 16px 0px 44px 0px;
+  max-width: 468px;
 }
 
 .section-link {
+  
     text-decoration: none;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
+    color: #0D1321;
     opacity: 0.7
     width: 171px;
     height: 47px;
@@ -199,4 +216,7 @@ main {
 
 .developer {
     margin: 20px;
+    width: 206.4px;
+    height: 187.32px;
 }
+
